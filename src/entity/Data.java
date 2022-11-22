@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Data {
-    public static final String FILE_PATH = "D:\\Projects\\SenlaTestProject\\src\\resource\\database.txt";
+    public static final String FILE_PATH = "D:\\Projects\\SenlaProject\\src\\resource\\database.txt";
     private Atm atm;
     private Map<String, Card> cards;
     private String activeCardKey;

@@ -17,9 +17,11 @@ public class Printer {
         System.out.println("Your card balance is\n" + value);
     }
 
-    public static void printAmountRequest() {
-        System.out.println("Enter amount.");
+    public static void printValueRequest() {
+        System.out.println("Enter value.");
     }
+
+    public static void printValueRange() { System.out.println("No more than 1,000,000."); }
 
     public static void printSuccessfulLogIn() {
         System.out.println("You are successfully logged in.");
@@ -38,7 +40,7 @@ public class Printer {
             case 5 -> System.out.println("You have entered your PIN incorrectly 3 times.");
             case 6 -> System.out.println("There are not enough funds on the balance sheet.");
             case 7 -> System.out.println("There are not enough funds in the ATM.");
-            case 8 -> System.out.println("The amount exceeds 1,000,000. Try again.");
+            case 8 -> System.out.println("Value is out of range. Try again.");
             case 9 -> System.out.println("Undefined option.");
             case 10 -> System.out.println("Unexpected value.");
         }
