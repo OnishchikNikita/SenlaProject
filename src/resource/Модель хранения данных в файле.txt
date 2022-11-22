@@ -1,0 +1,1 @@
+atmBalance cardNumber1 cardStatus1 cardPin1 cardBalance1 cardNumber2 cardStatus2 cardPin2 cardBalance2 cardNumber3 cardStatus3 cardPin3 cardBalance3 cardNumber4 cardStatus4 cardPin4 cardBalance4
